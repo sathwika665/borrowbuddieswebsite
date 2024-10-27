@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #eef7f5;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back-arrow {
+    text-decoration: none;
+    font-size: 24px;
+    color: #333;
+}
+
+.ask-us {
+    display: flex;
+    align-items: center;
+}
+
+.ask-us h1 {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.ask-us .icon {
+    width: 24px;
+    height: 24px;
+}
+
+.faq {
+    margin: 20px 0;
+}
+
+.faq h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.contact a {
+    color: #009688;
+    text-decoration: none;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 14px;
+}
